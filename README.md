@@ -8,12 +8,23 @@ The project demonstrates deployment of a Wazuh manager on Linux, onboarding of W
 
 ## Table of Contents
 
-- [Scope](#scope)
-- [Tools and Components Used](#tools-and-components-used)
-- [Architecture Diagram](#architecture-diagram)
-- [Lab Environment](#lab-environment)
-- [Use-Case Summary](#use-case-summary)
-- [Implementation](#implementation)
+* [Scope](#scope)
+* [Tools and Components Used](#tools-and-components-used)
+* [Architecture Diagram](#architecture-diagram)
+* [Lab Environment](#lab-environment)
+* [Use-Case Summary](#use-case-summary)
+* [Implementation](#implementation)
+
+  * [1. Wazuh Installation on Linux Server](#1-wazuh-installation-on-linux-server)
+  * [2. Agent Deployment](#2-agent-deployment)
+  * [3. File Integrity Monitoring (FIM)](#3-file-integrity-monitoring-fim)
+  * [4. Vulnerability Detection](#4-vulnerability-detection)
+  * [5. Linux Command Monitoring with Auditd](#5-linux-command-monitoring-with-auditd)
+  * [6. VirusTotal Integration](#6-virustotal-integration)
+  * [7. Sysmon + Windows Process Monitoring](#7-sysmon--windows-process-monitoring)
+* [MITRE ATT&CK Mapping](#mitre-attck-mapping)
+* [Alert Analysis](#alert-analysis)
+
 
 ## Scope
 - Install Wazuh Manager and Dashboard on a Linux server.
