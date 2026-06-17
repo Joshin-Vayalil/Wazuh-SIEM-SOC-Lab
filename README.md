@@ -6,6 +6,15 @@ The project demonstrates deployment of a Wazuh manager on Linux, onboarding of W
 - Validate log collection and alert generation for multiple host-based detection use cases.
 - Implement basic detection engineering by adding custom rules and integrating external intelligence.
 
+## Table of Contents
+
+- [Scope](#scope)
+- [Tools and Components Used](#tools-and-components-used)
+- [Architecture Diagram](#architecture-diagram)
+- [Lab Environment](#lab-environment)
+- [Use-Case Summary](#use-case-summary)
+- [Implementation](#implementation)
+
 ## Scope
 - Install Wazuh Manager and Dashboard on a Linux server.
 - Deploy Wazuh agents to one Windows endpoint and one Linux endpoint.
